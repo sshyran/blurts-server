@@ -171,6 +171,7 @@ app.set("view engine", "hbs");
 app.locals.constants = AppConstants;
 app.locals.FXA_ENABLED = AppConstants.FXA_ENABLED;
 app.locals.SERVER_URL = AppConstants.SERVER_URL;
+app.locals.RELAY_HOST_URL = AppConstants.RELAY_HOST_URL;
 app.locals.MAX_NUM_ADDRESSES = AppConstants.MAX_NUM_ADDRESSES;
 app.locals.EXPERIMENT_ACTIVE = AppConstants.EXPERIMENT_ACTIVE;
 app.locals.RECRUITMENT_BANNER_LINK = AppConstants.RECRUITMENT_BANNER_LINK;

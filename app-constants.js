@@ -52,6 +52,7 @@ const kEnvironmentVariables = [
   "PREMIUM_PROD_ID",
   "PREMIUM_PRICE_ID",
   "SUBSCRIPTIONS_WITH_UNLIMITED",
+  "RELAY_HOST_URL",
 ];
 
 const AppConstants = { };
